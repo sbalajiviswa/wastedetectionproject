@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  background-color: azure;
+  color: #34495e;
+  font-size: 23px;
+  font-weight: 300;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+.clearfix {
+  zoom: 1;
+}
+.clearfix::after {
+  content: ".";
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+body {
+  background-image: linear-gradient(#00ff6a, #2ecc70da);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  font-family: "Crimson Text", serif;
+}
+header {
+  height: 100vh;
+}
+header img {
+  width: 15%;
+  height: auto;
+  margin-left: -45%;
+  margin-top: 13%;
+}
+.hero-text {
+  display: inline-block;
+  float: left;
+  text-align: left;
+  color: aliceblue;
+  max-width: 1000px;
+  padding-top: 30%;
+  margin-left: 2%;
+}
+
+.description {
+  display: inline-block;
+  float: right;
+  margin: 0 3%;
+  background-color: rgba(255, 255, 255, 0.459);
+  max-width: 500px;
+  text-indent: 50px;
+  line-height: 120%;
+  word-spacing: 7px;
+  text-align: justify;
+  height: 100vh;
+  padding: 0 20px;
+}
+h2 {
+  padding-top: 40%;
+  padding-bottom: 4px;
+}
+h1 {
+  margin-bottom: 2%;
+  text-transform: uppercase;
+  word-spacing: 2px;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Titillium Web", sans-serif;
+}
+h2,
+h3,
+h4 {
+  color: #0b893f;
+  text-align: center;
+  margin-bottom: 2%;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  word-spacing: 4px;
+  font-size: 200%;
+}
+section {
+  padding: 7%;
+}
+.why {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.87),
+      rgba(255, 255, 255, 0.87)
+    ),
+    url(../res/earthday.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+.why p {
+  text-indent: 50px;
+  line-height: 120%;
+  word-spacing: 7px;
+  text-align: justify;
+}
+.why p strong {
+  color: #0b8940;
+}
+.signupdescription {
+  color: aliceblue;
+  text-indent: 50px;
+  line-height: 120%;
+  word-spacing: 7px;
+  text-align: justify;
+  margin-bottom: 2%;
+}
+.signup div {
+  display: inline-block;
+  float: left;
+  background-color: aliceblue;
+  border: 3px solid #ffe7bf;
+  background-color: #fff;
+  margin: 10px 7%;
+  width: 250px;
+  height: 450px;
+}
+.signup div p {
+  color: #00ff6a;
+  margin: 2% 0px;
+  font-size: 35px;
+}
+.signup div ul li {
+  list-style: none;
+  margin: 5% 2px;
+  text-align: justify;
+}
